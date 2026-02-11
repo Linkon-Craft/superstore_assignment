@@ -3,14 +3,14 @@ import numpy as np
 import pandas as pd
 import plotly.express as px
 from pandasql import sqldf
-
+from xlrd import 
 
 
 st.title("Data Vizualization App")
 st.set_page_config(page_title="Data Viz App", layout="wide")
 
 with st.expander("Data Preview"): 
-    data = pd.read_excel("sample_-_superstore.xls", engine='xlrd')
+    data = pd.read_excel("sample_-_superstore.xls", )
 
 
     st.write(data)
