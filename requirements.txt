@@ -3,3 +3,4 @@ pandas
 plotly
 numpy
 pandasql
+xlrd==1.2.0
