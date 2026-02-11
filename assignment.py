@@ -10,7 +10,7 @@ st.title("Data Vizualization App")
 st.set_page_config(page_title="Data Viz App", layout="wide")
 
 with st.expander("Data Preview"): 
-    data = pd.read_excel("sample_-_superstore.xls")
+    data = pd.read_excel("sample_-_superstore.xls", engine='xlrd')
 
 
     st.write(data)
