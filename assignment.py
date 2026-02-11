@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import plotly.express as px
 from pandasql import sqldf
-from xlrd import 
+
 
 
 st.title("Data Vizualization App")
